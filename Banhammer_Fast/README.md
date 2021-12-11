@@ -1,4 +1,4 @@
-# Assignment 7: Banhammer
+# Banhammer
 #### Written by: Joshua Revilla
 
 This program, takes in a list of badspeak, and oldspeak. It then parses
