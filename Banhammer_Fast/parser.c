@@ -6,6 +6,9 @@
 
 #define BLOCK 4096
 
+// This file was provided by an excellent TA
+// Eugene Chou at the University of California, Santa Cruz
+
 static char *words[BLOCK] = { NULL }; // Stores a block of words maximum.
 
 //

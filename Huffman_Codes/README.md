@@ -1,4 +1,4 @@
-# Assignment 5: Huffman Coding
+# Huffman Coding
 #### Written by: Joshua Revilla
 
 This program takes a file and compresses it through `./encode`.
@@ -29,7 +29,7 @@ for `encode`:
 OPTIONS<br/>
   -h             Program usage and help.<br/>
   -v             Print compression statistics.<br/>
-  -i infile      Input file to compress.<br/>
+  -i infile      Input file to compress. (infile required)<br/>
   -o outfile     Output of compressed data.<br/>
 
 ---
@@ -41,13 +41,9 @@ for `decode`:
 OPTIONS<br/>
   -h             Program usage and help.<br/>
   -v             Print compression statistics.<br/>
-  -i infile      Input file to decompress.<br/>
+  -i infile      Input file to decompress. (infile required)<br/>
   -o outfile     Output of decompressed data.<br/>
 
 Be sure to `make` each executable before running!
 
 
-
-### Notes:
-
-1. program unfornately does not run with inputs from `stdin`

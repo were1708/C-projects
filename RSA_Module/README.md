@@ -1,4 +1,4 @@
-# Assignment 6: RSA Cryptography
+# RSA Cryptography
 #### Written by: Joshua Revilla
 
 ---
