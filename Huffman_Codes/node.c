@@ -19,10 +19,7 @@ Node *node_create(uint8_t symbol, uint64_t frequency) {
     return n;
 }
 
-// function deletes a node and its children
-// function has to delete children since
-// without the parent node the child nodes
-// would be unaccessible and that would be... leaky
+// function deletes a node
 // input: pointer to a pointer to a node
 // output: none
 void node_delete(Node **n) {
